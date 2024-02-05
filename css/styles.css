@@ -1,0 +1,199 @@
+body{
+    font-family: "Montserrat",Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.row{
+    --bs-gutter-x:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/***** Containers *****/
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/***** Headings *****/
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/***** Navigation Bar *****/
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+li:hover{
+    border-radius: 15%;
+    background-color: #9e2235;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/***** Title Section *****/
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 2% 15% 7%;
+}
+
+/*****Download Buttons *****/
+
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/***** Title Image *****/
+
+.iphone-img{
+    width: 20%;
+    transform: rotate(30deg);
+    position: absolute;
+}
+
+@media (max-width: 1200px){
+    .iphone-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/***** Features Section *****/
+
+#features{
+    background-color: white;
+    position: relative;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.feature-box{
+    p{
+        padding: 0 7%;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .col-sm-12,
+    .col-md-12{
+        margin:10% 0;
+    }
+}
+
+/***** icons *****/
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/***** Testimonials Section *****/
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/***** Press Section *****/
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.press-img{
+    width: 15%;
+    margin:  20px 20px 50px;
+}
+
+/***** pricing Section *****/
+
+.price-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+.card{
+    height: 100%;
+}
+
+/***** Call to Action section *****/
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/***** Footer Section *****/
+
+#footer{
+    background-color: #fff;
+}
+
